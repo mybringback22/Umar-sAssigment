@@ -27,9 +27,9 @@ I will be following the clean architecture along with MVVM as it is the market s
 ## Data Layer 
 
 I have put in the extra work in the data layers to follow clean architecture as closely as possible. 
-I have made Data Transfer Objects to mimic how I will work on a large scale project where api will through a lot of data towards frontend and frontend might not need all of it.
-Data Transfer Object ensures that domain layer and presentation layer only get access to the data that is needed by then. 
-So person working on the presentation layer does not have to get bombarded with unnecessary data.
+I have made Data Transfer Objects to mimic how I will work on a large scale project where api will throw a lot of data towards frontend and frontend might not need all of it.
+Data Transfer Object ensures that domain layer and presentation layer only get access to the data that is needed by them. 
+So person working on the presentation layer does not get bombarded with unnecessary data.
 
 ![Clean Architecture](https://github.com/mybringback22/Umar-sAssigment/blob/main/screenshots/DataLayer.png?raw=true)
 
